@@ -1,0 +1,32 @@
+.main {
+  margin: 0.5rem 0 2rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  .moredetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    p {
+      font-size: 0.9rem;
+    }
+
+    div {
+      width: 145px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.slidedown {
+  animation-name: upTodown;
+  animation-duration: 1s;
+  transition: transform 1s;
+  transform: translateY(-100px);
+}
